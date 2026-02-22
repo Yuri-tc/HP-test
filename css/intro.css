@@ -1,0 +1,207 @@
+@charset "UTF-8";
+.top {
+  background-image: url("../img/in-fv__bg.jpg");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+.breadcrumb-wrap__nav__list__item:nth-of-type(3)::before {
+  content: "›";
+  margin: 0 10px;
+  color: #777;
+}
+
+.greet{
+  background-color: #D3DEFF;
+}
+
+.greet-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greet-wrap__left {
+  width: 65%;
+}
+
+.greet-wrap__left .ttl {
+  text-decoration: underline 5px #4169E1;
+  text-underline-offset: 15px;
+}
+
+.greet-wrap__left__ttl {
+  padding: 3% 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-top: 3%;
+}
+
+.greet-wrap__right {
+  width: 45%;
+  aspect-ratio: 7 / 5;
+  text-align: center;
+}
+
+.greet-wrap__right img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.greet-doc{
+  padding-top: 5%;
+  font-weight: 500;
+}
+
+.bio-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bio-wrap__left {
+  width: 45%;
+  background-color: #D3DEFF;
+  padding: 3%;
+}
+
+.g-ttl {
+  font-size: 2rem;
+  color:#4169E1;
+  border-bottom: dotted 3px #99A0FF;
+  padding-bottom: 3%;
+}
+
+.bio-wrap__left__item{
+  margin-top: 3%;
+}
+
+.bio-wrap__left__item span{
+  font-weight: bold;
+}
+
+.bio-wrap__right {
+  width: 45%;
+}
+
+.qua,.ass{
+  padding: 3%;
+  background-color: #D3DEFF;
+}
+
+.qua{
+    margin-bottom: 3.5%;
+}
+
+.adress-wrap {
+  margin-top: 5%;
+}
+
+.adress-wrap__ttl,.first-wrap__ttl,.res-wrap__ttl {
+  text-align: center;
+}
+
+.adress-wrap__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5%;
+}
+
+.adress-wrap__body__txt {
+  width: 45%;
+}
+
+.adress-wrap__body__txt__list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adress-wrap__body__txt__list__item p {
+  width: 45%;
+}
+
+.adress-wrap__body__txt__list__item span {
+  font-size: 1.15rem;
+  color: #4169E1;
+  font-weight: 500;
+  display: inline-block;
+  text-align: left;
+}
+
+.time-wrap__body__block__table {
+  margin-bottom: 3.5%;
+}
+
+.time-wrap__body__block__table table {
+  width: 50%;
+  margin: auto;
+}
+
+.time-wrap__body__block__table table tr:nth-of-type(1) {
+  background-color: #4169E1;
+  color: #fff;
+  text-align: center;
+  border-bottom: solid 1px #B3B3B3;
+}
+
+th {
+  background-color: #4169E1;
+  color: #fff;
+
+}
+
+td {
+  color: #B4BFE0;
+  text-align: center;
+}
+
+.week {
+  color: #fff;
+  font-weight: bold;
+}
+
+.time-wrap__body__block__table table tr:nth-of-type(2),
+.time-wrap__body__block__table table tr:nth-of-type(3) {
+  border-bottom: solid 1px #B3B3B3;
+}
+
+table td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #B3B3B3;
+}
+
+.time-wrap__body__block__table table tr th {
+  padding: 12.5px;
+}
+
+.time-wrap__body__block__table table tr td {
+  padding: 12.5px;
+}
+
+
+
+.first-wrap__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.first-wrap__body__txt__list__item p{
+  line-height: 1.8;
+}
+
+.res-wrap__txt{
+  width: 60%;
+  text-align: left;
+  margin:3% auto;
+}

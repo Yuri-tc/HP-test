@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>WithCode -HP①-</title>
+    <meta name="description" content="WithCodeのHP①の課題です。">
+    <meta name="keywords" content="IT,プログラミング,フリーランス,副業">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- OGP -->
+    <meta property="og:url" content="本番環境URL">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WithCode -HP①-">
+    <meta property="og:description" content="WithCodeのHP①の課題です。">
+    <meta property="og:site_name" content="HP①">
+    <meta property="og:image" content="本番環境URL/img/logo.png"> <!-- ICON -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180×180" href="本番環境URL/img/logo.png">
+    <!-- CSS-外部 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- CSS-内部 -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common-main.css">
+    <link rel="stylesheet" type="text/css" href="css/common-sub.css">
+    <link rel="stylesheet" type="text/css" href="css/faq.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header-wrap">
+        <div class="header-wrap__logo">
+          <a href="/">
+            <img src="img/c-logo.png" alt="ロゴ画像">
+          </a>
+        </div>
+        <nav class="header-wrap__nav">
+          <ul class="header-wrap__nav__list">
+            <li class="header-wrap__nav__list__item">
+              <a href="intro.html">クリニック紹介</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="fea.html">当クリニックの特徴</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="guide.html">診療案内</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="faq.html">よくあるご質問</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="scope.html">内視鏡検査</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="header-wrap__res">
+          <ul class="header-wrap__res__list">
+            <li class="header-wrap__nav__res__item">
+              <a href="/">オンライン予約</a>
+            </li>
+            <li class="header-wrap__nav__res__item_tel">
+              <a href="/">お電話でのお問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="top" id="top">
+        <div class="top-wrap">
+          <div class="top-wrap__ttl">
+            <h1>よくあるお問い合わせ</h1>
+          </div>
+        </div>
+      </section>
+      <section class="breadcrumb" id="breadcrumb">
+        <div class="breadcrumb-wrap __inner">
+          <nav class="breadcrumb-wrap__nav">
+            <ol class="breadcrumb-wrap__nav__list">
+              <li class="breadcrumb-wrap__nav__list__item">
+                <a href="/"><i class="fa-solid fa-house"></i></a>
+              </li>
+              <li class="breadcrumb-wrap__nav__list__item">
+                <a href="#">よくあるお問い合わせ</a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </section>
+      <section class="tab" id="tab">
+        <div class="tab-wrap __inner">
+          <nav class="tab-wrap__nav">
+            <ul class="tab-wrap__nav__list">
+              <li class="tab-wrap__nav__list__item">
+                <a href="#faq-1">
+                  受診に際して
+                </a>
+              </li>
+              <li class="tab-wrap__nav__list__item">
+                <a href="#faq-2">
+                  診察・処方について
+                </a>
+              </li>
+              <li class="tab-wrap__nav__list__item">
+                <a href="#faq-3">
+                  内視鏡検査について
+                </a>
+              </li>
+              <li class="tab-wrap__nav__list__item">
+                <a href="#faq-4">
+                  麻酔について
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <section class="faq" id="faq-1">
+        <div class="faq-wrap __inner">
+          <div class="faq-wrap__ttl">
+            <h2 class="ttl">
+              受診に際して
+            </h2>
+          </div>
+          <div class="faq-wrap__body">
+            <ul class="faq-wrap__body__list">
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle1" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle1"><span>Q.</span>　初めて受診するときはどうすればよいですか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>まずはお電話でご相談ください。<br>
+                    当日を含め、ご予約の日時を調整いたします。
+                  </p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle2" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle2"><span>Q.</span>　当日、予約なしでも受診できますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>ご新規の方で本日受診希望の方は電話予約してください。<br>
+                  再診の方はWEB予約が可能です。<br>
+                  明日以降の診察予約については、ご新規、再診ともにWEB予約が可能です。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle3" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle3"><span>Q.</span>　診察時間を予約することはできますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>はい。可能な限りお待たせする時間を少なくするため、また適切な診療時間を確保するため、当院では予約制を採用させていただいております。<br>
+                    初診に際しても、事前のご連絡でご予約をお取りすることができます。WEB予約（24時間対応）をご活用ください。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle4" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle4"><span>Q.</span>　駐車場、駐輪場はありますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>はい。満車であったり、大きなお車は、当クリニック正面の駐車場をご利用ください。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle5" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle5"><span>Q.</span>　健康保険は使えますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>当院は保険医療機関です。各種健康保険が使用できます。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle6" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle6"><span>Q.</span>　お会計でカードは使えますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>ご精算金額が1万円以上の場合とさせていただいています。（分割払いはできません）<br>
+                  あらかじめご承知ください。</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="faq" id="faq-2">
+        <div class="faq-wrap __inner">
+          <div class="faq-wrap__ttl">
+            <h2 class="ttl">
+              処方・診察について
+            </h2>
+          </div>
+          <div class="faq-wrap__body">
+            <ul class="faq-wrap__body__list">
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle1" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle1"><span>Q.</span>　どのような病気を診察していますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>胃腸などお腹を中心に、高血圧症・高脂血症・糖尿病などの生活習慣病に力を入れています。<br>
+                  もちろん、かぜ・花粉症などの一般的な内科疾患も診察します。
+                  </p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle2" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle2"><span>Q.</span>　何歳から受診できますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>内科診療、予防注射は中学生以上、胃大腸内視鏡検査は高校生以上から対応します。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle3" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle3"><span>Q.</span>　健康診断は受けれますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>特定健康診断などの市の健康診断、および会社などに提出される一般健康診断は、予約制で受付しております。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle4" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle4"><span>Q.</span>　院内処方ですか？院外処方ですか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>院外処方です。<br>
+                  かかりつけ薬局をもつことで、薬の重複予防や残薬管理、薬剤指導など、院外処方の方がメリットが大きいと考えています。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle5" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle5"><span>Q.</span>　院外処方はどこの薬局でもよいですか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>処方箋はどこの調剤薬局でも対応していただくことができます。近隣の薬局をご案内することも可能です。</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="faq" id="faq-3">
+        <div class="faq-wrap __inner">
+          <div class="faq-wrap__ttl">
+            <h2 class="ttl">
+              内視鏡検査について
+            </h2>
+          </div>
+          <div class="faq-wrap__body">
+            <ul class="faq-wrap__body__list">
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle1" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle1"><span>Q.</span>　内視鏡検査の所要時間はどのくらいですか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>検査時間は5-10分程度です。大腸内視鏡検査でポリープ切除を行った場合は15-30分程度です。<br>
+                    麻酔を使用した場合は、リカバリールームで1時間ほどの安静が必要です。
+                  </p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle2" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle2"><span>Q.</span>　費用はどのくらいですか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>胃内視鏡検査の場合は健康保険3割負担の方で約¥15,000程度ご用意ください。<br>
+                  大腸内視鏡検査の場合は健康保険3割負担の方で¥7,500～¥18,000程度になります。<br>
+                大腸ポリープ切除術（日帰り手術）は¥20,000～¥30,000程度です。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle3" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle3"><span>Q.</span>　組織検査の結果はいつわかりますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>胃内視鏡検査であれば10日間程度、大腸内視鏡検査であれば2週間程度あとに、ご説明いたします。（ご紹介医院さまで説明を受けることも可能です。）</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle4" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle4"><span>Q.</span>　S状結腸内視鏡は可能でしょうか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>下血など、緊急性が高いと判断された場合は、ご来院された当日でも、S状結腸までの内視鏡検査が可能です。<br>
+                  S状結腸内視鏡は、簡便な前処置で行い、肛門から約20㎝程度（全大腸の1/4程度）を観察します。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle5" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle5"><span>Q.</span>　同日胃大腸内視鏡検査は可能ですか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>可能ですが、保険診療上のルールでは「健診」と区別しなければいけませんので基本的には別日に行います。<br>
+                  当院では以下のルールに則ります。
+                (1) 医師が同日検査を行う必要があると判断した場合<br>
+                　例）腫瘍マーカーの高度上昇や高度な貧血の進行など原因検索を急ぐ場合。<br>
+                (2) ドック（自費）の方。内視鏡検査のみでも対応できます。</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="faq" id="faq-4">
+        <div class="faq-wrap __inner">
+          <div class="faq-wrap__ttl">
+            <h2 class="ttl">
+              麻酔について
+            </h2>
+          </div>
+          <div class="faq-wrap__body">
+            <ul class="faq-wrap__body__list">
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle1" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle1"><span>Q.</span>　麻酔を使用する内視鏡検査には、なにがありますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>胃内視鏡、大腸内視鏡ともに可能です。
+                  </p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle2" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle2"><span>Q.</span>　麻酔を使用した当日に、車の運転はできますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>できません。判断力が鈍っていたり、眠気におそわれる可能性があり危険です。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle3" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle3"><span>Q.</span>　麻酔を使用した内視鏡検査した後、仕事はできますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>目覚めた後も判断力が鈍っている可能性があります。危険な場所や重要な判断を要するような仕事は避けてください。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle4" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle4"><span>Q.</span>　胃内視鏡検査に麻酔は使用しますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>基本的には経口胃内鏡に使用し、経鼻内視鏡には使用しません。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle5" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle5"><span>Q.</span>　大腸内視鏡検査に麻酔は使用しますか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>使用します。</p>
+                </div>
+              </li>
+              <li class="faq-wrap__body__list__item">
+                <input type="checkbox" id="toggle6" class="faq-wrap__body__list__item__tog">
+                <label class="faq-wrap__body__list__item__ttl" for="toggle6"><span>Q.</span>　麻酔を使用した内視鏡は本当に苦しくありませんか？</label>
+                <div class="faq-wrap__body__list__item__con">
+                  <p>ご当院では内視鏡に熟練した医師が鎮静剤を使用し苦痛の少ない内視鏡検査を行っておりますので、ほとんどの方が苦痛なく検査を受けられます。ただし、まれに麻酔が効きにくい方もいらっしゃるのも事実です。<br>
+                  ただし、麻酔が効きにくい＝苦痛、というわけではありません。<br>
+                  呼吸・循環をモニタリングしながら、安全で必要十分な麻酔下内視鏡検査を行います。</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer-wrap">
+        <ul class="footer-wrap__list">
+          <li class="footer-wrap__list__item">
+            <a href="intro.html">
+              クリニック紹介
+            </a>
+            <ul class="footer-wrap__list__item__sub">
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="intro.html">
+                  院長紹介
+                </a>
+              </li>
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="intro-2.html">
+                  クリニック概要
+                </a>
+              </li>
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="intro-3.html">
+                  初診の方へ
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="footer-wrap__list">
+          <li class="footer-wrap__list__item">
+            <a href="fea.html">
+              当クリニックの特徴
+            </a>
+            <ul class="footer-wrap__list__item__sub">
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="fea.html#facil">
+                  設備紹介
+                </a>
+              </li>
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="fea.html#map">
+                  アクセス
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="footer-wrap__list">
+          <li class="footer-wrap__list__item">
+            <a href="guide.html">
+              診察案内
+            </a>
+            <ul class="footer-wrap__list__item__sub">
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="guide.html">
+                  胃腸内科・消化器内科
+                </a>
+              </li>
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="guide-2.html">
+                  内科
+                </a>
+              </li>
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="guide-3.html">
+                  各種検査
+                </a>
+              </li>
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="guide-4.html">
+                  各種検診・メタボ健診・人間ドック
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="footer-wrap__list">
+          <li class="footer-wrap__list__item">
+            <a href="scope.html">
+              内視鏡検査
+            </a>
+            <ul class="footer-wrap__list__item__sub">
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="scope.html">
+                  胃内視鏡検査
+                </a>
+              </li>
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="scope-2.html">
+                  大腸内視鏡検査
+                </a>
+              </li>
+              <li class="footer-wrap__list__item__sub__item">
+                <a href="scope-3.html">
+                  当クリニックの内視鏡検査の特徴
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-wrap__list__item">
+            <a href="faq.html">
+              よくあるお問い合わせ
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

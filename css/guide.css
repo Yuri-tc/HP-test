@@ -1,0 +1,259 @@
+@charset "UTF-8";
+.top {
+  background-image: url("/img/g-fv__bg.jpg");
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+.breadcrumb-wrap__nav__list__item:nth-of-type(3)::before {
+  content: "›";
+  margin: 0 10px;
+  color: #777;
+}
+
+.problem{
+  background-color: #D3DEFF;
+}
+
+.problem-wrap__inner{
+  padding: 5% 0;
+}
+
+.problem-wrap__block{
+  max-width: 500px;
+  background-color:white ;
+  display: block;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.problem-wrap__item__ttl{
+  margin-top: 2.5%;
+  text-align: center;
+}
+
+.problem-wrap__item__ttl h3 {
+  display: inline-block;
+  font-size: 1.35rem;
+  margin-top: 3%;
+}
+
+.problem-wrap__block__list{
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+
+
+.problem-wrap__nav__list__item{
+  text-align: center;
+}
+
+.problem-wrap__nav__list__item p{
+  text-decoration: underline 2px dotted #6BAFFF;
+  text-underline-offset: 0.5em;
+  line-height:2.5;
+  display: block;
+  text-align: left;
+  margin: 2%;
+  white-space: nowrap;
+}
+
+.sick-wrap__ttl{
+  text-align: center;
+  margin-top: 3.5%;
+}
+
+.sick-wrap__nav__list{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sick-wrap__nav__list__item{
+  background-color: #D3DEFF;
+  width: 22rem;
+  border-radius:10px ;
+}
+
+.sick-wrap__block__list__top{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25%;
+  padding: 5% 0;
+  list-style: none;
+}
+
+.sick-wrap__block__list__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25%;
+    padding-bottom: 5%;
+    list-style: none;
+  }
+
+svg path {
+  fill: #6BAFFF;
+}
+
+.sick-wrap__nav__list__item a {
+  position: relative;
+  text-decoration: unset;
+  white-space: nowrap;
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  background-color: #D3DEFF;
+  border-radius: 10px;
+
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sick-wrap__nav__list__item a:hover {
+  opacity: 0.7;
+}
+
+.check-wrap__ttl {
+  text-align: center;
+  margin-top: 3.5%;
+}
+
+.check-wrap__txt{
+  margin-top: 3.5%;
+  display:inline-block;
+  text-align: left;
+  margin: auto;
+  max-width: 600px;
+}
+
+.check-wrap__block{
+  max-width: 800px;
+  display: block;
+  text-align: center;
+  margin:10% auto;
+  border: dotted #41E0B9;
+}
+
+.check-wrap__item__ttl {
+  margin-top: 2.5%;
+  text-align: center;
+}
+
+.check-wrap__item__ttl h3 {
+  font-size: 1.5rem;
+}
+
+.check-wrap__block__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 15%;
+}
+
+.check-wrap__nav__list__item {
+  text-align: center;
+}
+
+.check-wrap__nav__list__item p {
+  line-height: 2.5;
+  display: block;
+  text-align: left;
+  margin: 2%;
+  white-space: nowrap;
+}
+
+
+.check-wrap__brock__gastro a{
+  position: relative;
+  text-decoration: unset;
+  white-space: nowrap;
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: #4169E1;
+  padding: 10% 20px;
+  margin-right: 10%;
+  margin-top: 20%;
+  transition: all 0.3s;
+  width: 170px;
+}
+
+.check-wrap__brock__colon a {
+  position: relative;
+  text-decoration: unset;
+  white-space: nowrap;
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: #41E0B9;
+  padding: 10% 20px;
+  margin-top: 20%;
+  transition: all 0.3s;
+  width: 170px;
+}
+
+.check-wrap__brock__gastro a:hover,
+.check-wrap__brock__colon a:hover {
+  opacity: 0.7;
+}
+
+.check-wrap__brock__gastro span,
+.check-wrap__brock__colon span{
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+
+.inter-wrap__ttl,.life-wrap__ttl,.vaccine-wrap__ttl,.common-wrap__ttl,.regular-wrap__ttl,.checkup-wrap__ttl,.stomach-wrap__ttl,.neck-wrap__ttl,.blood-wrap__ttl {
+  text-align: center;
+}
+
+.inter-wrap__txt,.life-wrap__txt,.vaccine-wrap__txt,.common-wrap__txt,.regular-wrap__txt,.checkup-wrap__txt{
+  width: 60%;
+  text-align: left;
+  margin: 3% auto;
+}
+
+.stomach-wrap,.neck-wrap,.blood-wrap {
+  margin-top: 5%;
+}
+
+
+.stomach-wrap__body,.neck-wrap__body,.blood-wrap__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5%;
+}
+
+.stomach-wrap__body__txt,.neck-wrap__txt,.blood-wrap__body__txt {
+  width: 50%;
+}
+
+.stomach-wrap__body__txt__list__item,.neck-wrap__body__txt__list__item,.blood-wrap__body__txt__list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stomach-wrap__body__txt__list__item p,.neck-wrap__body__txt__list__item p,.blood-wrap__body__txt__list__item p {
+  width: 45%;
+}
+
+.stomach-wrap__body__txt__list__item span,.neck-wrap__body__txt__list__item span,.blood-wrap__body__txt__list__item span {
+  font-size: 1.15rem;
+  color: #4169E1;
+  font-weight: 500;
+  display: inline-block;
+  text-align: left;
+}
