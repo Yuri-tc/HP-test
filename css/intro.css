@@ -99,9 +99,6 @@
     margin-bottom: 3.5%;
 }
 
-.adress-wrap {
-  margin-top: 5%;
-}
 
 .adress-wrap__ttl,.first-wrap__ttl,.res-wrap__ttl {
   text-align: center;
@@ -186,8 +183,6 @@ table td {
 .time-wrap__body__block__table table tr td {
   padding: 12.5px;
 }
-
-
 
 .first-wrap__body {
   display: flex;

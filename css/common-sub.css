@@ -53,11 +53,10 @@
 
 .tab-wrap__nav__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .tab-wrap__nav__list__item {
-  width: 34%;
   text-align: center;
   list-style: none;
 }

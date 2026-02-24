@@ -13,7 +13,6 @@ body {
 
 .header-wrap {
   position: fixed;
-
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -122,7 +121,7 @@ body {
   max-width: 1400px;
   width: 85%;
   margin: 0 auto;
-  padding: 5% 0;
+  padding: 3% 0;
 }
 
 
@@ -161,6 +160,9 @@ body {
 }
 
 .footer {
+  max-width: 1400px;
+  width: 85%;
+  margin: 0 auto;
   background-color: #F8FBFF;
   padding: 1.5% 3.5%;
 }

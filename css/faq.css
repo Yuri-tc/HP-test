@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .top {
-  background-image: url("/img/n-fv__bg.jpg");
+  background-image: url("../img/n-fv__bg.jpg");
   background-size: cover;
   background-position: 50%;
   position: relative;

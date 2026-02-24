@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .top {
-  background-image: url("/img/s-fv__bg.jpg");
+  background-image: url("../img/s-fv__bg.jpg");
   background-size: cover;
   background-position: 50%;
   position: relative;
@@ -114,15 +114,15 @@
 }
 
 .s-btn{
-  width: 12rem;
+  width: 15rem;
   padding-top: 20px;
   margin: auto;
   margin-top: auto;
-  }
+}
 
-  .sick-wrap__block__list__item__right .s-btn{
-    padding-top: 50px;
-  }
+.sick-wrap__block__list__item__right .s-btn{
+  padding-top: 50px;
+}
 
 .flow-wrap__ttl {
   text-align: center;

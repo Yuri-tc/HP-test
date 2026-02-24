@@ -2,7 +2,8 @@
 
 .top {
   background-image: url("../img/t-fv__bg.jpg");
-  background-size: 50%;
+  background-size: 1100px;
+  height: 700px;
   background-repeat: no-repeat;
   background-position: 50%;
   position: relative;
@@ -33,7 +34,7 @@
   width: 50%;
   display: flex;
   align-items: center;
-  padding-left: 25%;
+  padding-left: 13%;
 }
 
 .top-wrap__left__ttl {
@@ -42,8 +43,8 @@
 
 .top-wrap__left__ttl h1 {
   font-size: 2rem;
-  line-height: 2;
-  letter-spacing: 5px;
+  line-height: 2.5;
+  letter-spacing: 15px;
   margin-bottom: 3.5%;
   padding: 0 20px;
   padding-bottom: 10px;
@@ -90,6 +91,13 @@
   justify-content: space-between;
   margin: 0 5% 2.5%;
   padding-top: 5%;
+}
+.info-wrap__body__block__item a,.fea-wrap__body__block__item a{
+  transition: all 0.3s;
+}
+
+.info-wrap__body__block__item a:hover,.fea-wrap__body__block__item a:hover {
+  opacity: 0.7;
 }
 
 .info-wrap__body__block__item {
@@ -298,6 +306,7 @@ svg{
   font-size: 1.15rem;
   font-weight: 500;
   background-color: #41E0B9;
+  border: solid 2.5px #41E0B9;
   border-radius: 50px;
   color: #fff;
   line-height: 2;
