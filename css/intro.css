@@ -29,12 +29,13 @@
 
 .greet-wrap__left .ttl {
   text-decoration: underline 5px #4169E1;
+  font-size: 2.25rem; ;
   text-underline-offset: 15px;
 }
 
 .greet-wrap__left__ttl {
   padding: 3% 0;
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   line-height: 1.35;
   margin-top: 3%;
@@ -72,7 +73,7 @@
 }
 
 .g-ttl {
-  font-size: 2rem;
+  font-size: 1.75rem;
   color:#4169E1;
   border-bottom: dotted 3px #99A0FF;
   padding-bottom: 3%;
@@ -96,12 +97,15 @@
 }
 
 .qua{
-    margin-bottom: 3.5%;
+  margin-bottom: 3.5%;
 }
 
 
 .adress-wrap__ttl,.first-wrap__ttl,.res-wrap__ttl {
   text-align: center;
+  text-decoration: underline 5px #4169E1;
+  font-size: 2.25rem;
+  text-underline-offset: 15px;
 }
 
 .adress-wrap__body {
@@ -112,7 +116,7 @@
 }
 
 .adress-wrap__body__txt {
-  width: 45%;
+  width: 50%;
 }
 
 .adress-wrap__body__txt__list__item {
@@ -138,7 +142,7 @@
 }
 
 .time-wrap__body__block__table table {
-  width: 50%;
+  width: 42%;
   margin: auto;
 }
 
@@ -152,6 +156,7 @@
 th {
   background-color: #4169E1;
   color: #fff;
+  width: 10rem;
 
 }
 
@@ -177,18 +182,18 @@ table td {
 }
 
 .time-wrap__body__block__table table tr th {
-  padding: 12.5px;
+  padding: 1%;
 }
 
 .time-wrap__body__block__table table tr td {
-  padding: 12.5px;
+  padding: 1%;
 }
 
 .first-wrap__body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .first-wrap__body__txt__list__item p{

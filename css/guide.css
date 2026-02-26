@@ -65,6 +65,8 @@
 .sick-wrap__ttl{
   text-align: center;
   margin-top: 3.5%;
+  text-decoration: underline 5px #4169E1;
+  text-underline-offset: 15px;
 }
 
 .sick-wrap__nav__list{
@@ -125,14 +127,15 @@ svg{
 
 .check-wrap__ttl {
   text-align: center;
-  margin-top: 3.5%;
+  margin-top: 3%;
+  text-decoration: underline 5px #4169E1;
+  text-underline-offset: 15px;
 }
 
 .check-wrap__txt{
-  margin-top: 3.5%;
   display:inline-block;
   text-align: left;
-  margin: auto;
+  margin: 3% auto;
   max-width: 600px;
 }
 
@@ -140,7 +143,8 @@ svg{
   max-width: 800px;
   display: block;
   text-align: center;
-  margin:10% auto;
+  margin:3% auto;
+  margin-bottom: 5%;
   border: dotted #41E0B9;
 }
 
@@ -216,10 +220,15 @@ svg{
 }
 
 
-.inter-wrap__ttl,.life-wrap__ttl,.vaccine-wrap__ttl,.common-wrap__ttl,.regular-wrap__ttl,.checkup-wrap__ttl,.stomach-wrap__ttl,.neck-wrap__ttl,.blood-wrap__ttl {
+.inter-wrap__ttl,.life-wrap__ttl,.vaccine-wrap__ttl,.common-wrap__ttl,.regular-wrap__ttl,.checkup-wrap__ttl {
   text-align: center;
+  text-decoration: underline 5px #4169E1;
+  text-underline-offset: 15px;
 }
 
+.stomach-wrap__ttl,.neck-wrap__ttl,.blood-wrap__ttl{
+  text-align: center;
+}
 .inter-wrap__txt,.life-wrap__txt,.vaccine-wrap__txt,.common-wrap__txt,.regular-wrap__txt,.checkup-wrap__txt{
   width: 60%;
   text-align: left;

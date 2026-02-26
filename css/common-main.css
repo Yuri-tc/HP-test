@@ -125,7 +125,7 @@ body {
 
 .ttl {
   position: relative;
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.15;}
 
@@ -164,9 +164,9 @@ body {
 
 .footer-wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 1400px;
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
 }
 

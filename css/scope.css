@@ -190,6 +190,8 @@ svg{
 
 .reduce-wrap__ttl{
   text-align: center;
+  text-decoration: underline 5px #4169E1;
+  text-underline-offset: 15px;
 }
 
 .reduce-wrap__txt{
