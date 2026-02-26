@@ -84,7 +84,7 @@
 .f-btn {
   padding-top: 5%;
   margin: auto;
-  width: 15rem;
+  width: 17rem;
 }
 
 .map-wrap {
@@ -108,20 +108,17 @@
 }
 
 .access-wrap__adress{
-  text-align: center;
-  display: block;
-  padding: 3% 0;
+  text-align: left;
+  padding: 2% 21%;
   text-wrap: nowrap;
 }
 
 .access-wrap__adress span{
   font-size: 1.5rem;
   font-weight: bold;
-  padding-right: 5%;
+  padding-right: 3%;
 }
 
 .access-wrap__adress p{
   font-size: 1.25rem;
-  display: inline-block;
-  text-align: left;
 }
